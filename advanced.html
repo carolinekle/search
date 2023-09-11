@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>gOgGlE</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class = "navbar">
-        <li><a href="index.html">Google Search</a></li>
+        <ul>
+            <li><a href="index.html">Google Search</a></li>
+        </ul>
     </div>
 
     <h2 class="advanced">Advanced Search</h2>
     <div class="border"></div>
-    <h4>Find pages with...</h4>
 
-    <form action="http://google.com/search">
+    <form class="advanced-container"action="http://google.com/search">
+        <h3>Find pages with...</h3>
         <div class="form-row">
-            <label>all these words</label>
+            <label>all these words:</label>
             <input type="text" name="as_q">
         </div>
         <div class="form-row">
-            <label>this exact word or phrase</label>
+            <label>this exact word or phrase:</label>
             <input type="text" name="as_epq">
         </div>
         <div class="form-row">
-            <label>any of these words</label>
+            <label>any of these words:</label>
             <input type="text" name="as_oq">
         </div>
         <div class="form-row">
-            <label>none of these words</label>
+            <label>none of these words:</label>
             <input type="text" name="as_eq">
         </div>
-        <input type="submit" value="Advanced Search" class="advanced">
+        <input type="submit" value="Advanced Search" class="advanced-btn">
     </form>
 </body>
 </html>
